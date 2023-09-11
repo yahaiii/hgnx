@@ -14,8 +14,8 @@ def get_user():
     utc_time = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
 
     # GitHub repo links
-    github_file_url = "https://github.com/yahaiii/hngx/task1/app.py"
-    github_repo_url = "https://github.com/yahaiii/hngx"
+    github_file_url = "https://github.com/yahaiii/hgnx/blob/master/task1/app.py"
+    github_repo_url = "https://github.com/yahaiii/hgnx"
 
     # JSON response
     response = {
